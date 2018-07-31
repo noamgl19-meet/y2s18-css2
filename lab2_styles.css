@@ -16,3 +16,24 @@ p {
 a {
     color:red;
 }
+a:hover{
+	background-color:blue;
+}
+
+#important_paragraph:hover{
+	font-size:40px;
+	font-family: Comic Sans MS;
+}
+
+.less_important_paragraphs:hover{
+	color:blue;
+	font-family:Comic Sans MS;
+	text-decoration: none;
+}
+#hidden_div{
+	display:none;
+	font-family: Comic Sans MS;
+}
+#span_cover:hover + #hidden_div {
+    display: block;
+}
